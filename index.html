@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Hub de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Hub <span>de Projetos</span></div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="sobremim.html">Sobre Mim</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            ☰
+        </button>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao meu Portfólio</h1>
+            <p>Explore os meus principais projetos, tecnologias que utilizo e um pouco da minha jornada.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects-section">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projects-grid">
+            
+            <div class="card">
+                <div class="card-content">
+                    <h3>Futuro projeto</h3>
+                    <p>Descrição</p>
+                    <a href="#" class="card-btn">Acessar Projeto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Futuro projeto</h3>
+                    <p>Descrição</p>
+                    <a href="#" class="card-btn">Acessar Projeto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Futuro projeto</h3>
+                    <p>Descrição</p>
+                    <a href="#" class="card-btn">Acessar Projeto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Futuro projetos</h3>
+                    <p>Descrição</p>
+                    <a href="#" class="card-btn">Acessar Projeto</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Fecha o menu ao clicar em um link (para mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
