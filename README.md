@@ -1,10 +1,10 @@
-# 💻 Hub de Projetos
+# Hub de Projetos
 
-Este é o meu portfólio pessoal criado para organizar e mostrar todos os meus projetos de programação em um só lugar.
+Este é o meu site criado para organizar e mostrar todos os meus projetos de programação feitos na escola.
 
 ---
 
-## 🛠️ Tecnologias Usadas
+## Tecnologias Usadas
 
 *   **HTML5** - Estrutura do site
 *   **CSS3** - Design moderno e responsivo (funciona no celular e PC)
@@ -12,10 +12,9 @@ Este é o meu portfólio pessoal criado para organizar e mostrar todos os meus p
 
 ---
 
-## 📂 Como rodar o projeto
+## Link do site
 
-1. Faça o download ou clone este repositório.
-2. Abra o arquivo `index.html` em qualquer navegador.
+Você pode testar o site online clicando [AQUI](https://rafamarques09.github.io/projetos-2026/).
 
 ---
 
