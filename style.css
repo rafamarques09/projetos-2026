@@ -1,9 +1,9 @@
 /* Configurações Gerais e Reset */
 :root {
-    --primary-color: #0056b3; /* Azul moderno */
+    --primary-color: #0056b3; 
     --primary-hover: #004085;
-    --bg-dark: #1a1a24;      /* Cinza escuro */
-    --bg-light: #f8f9fa;     /* Cinza bem claro / quase branco */
+    --bg-dark: #1a1a24;  
+    --bg-light: #f8f9fa; 
     --text-dark: #212529;
     --text-light: #ffffff;
     --card-bg: #ffffff;
@@ -83,7 +83,7 @@ body {
     justify-content: center;
     text-align: center;
     padding: 0 1rem;
-    margin-top: 60px; /* Desconto da altura do menu */
+    margin-top: 60px;
 }
 
 .hero-content h1 {
@@ -267,11 +267,11 @@ body {
     font-weight: bold;
 }
 .about-avatar {
-    width: 250px;          /* Ajuste a largura como preferir */
-    height: 250px;         /* Ajuste a altura */
-    border-radius: 50%;    /* Deixa a imagem perfeitamente redonda */
-    object-fit: cover;     /* Garante que a foto não fique distorcida */
-    border: 3px solid #ccc; /* Adiciona uma borda opcional */
+    width: 250px;          
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
 }
 
 /* Responsividade (Mobile) */
